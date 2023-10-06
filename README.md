@@ -1,6 +1,6 @@
 CRUD (Create, Read, Update, Delete) application using Visual Studio 2022, MySQL database, and Web Forms project template without using Entity Framework.
 
-For UI index.aspx file & index.aspx.cs file is imortant for devlopment:
+For UI : index.aspx file & ibackend logic :ndex.aspx.cs file is imortant for devlopment:
 
 DB Setup:
 
