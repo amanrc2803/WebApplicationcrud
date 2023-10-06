@@ -74,6 +74,15 @@ BEGIN
 END
 
 
+And last but not least, add our credential settings inside our config file. If we are using the same Web Application template for a Webform without an MVC Core project, then we can include these DB credentials in the Web.Config file :
+
+ <connectionStrings>
+			<add name="DefaultConnection" connectionString="Server=127.0.0.1;Database=aspcruddb;Username=root;Password=ourpassword;SslMode=None;persistsecurityinfo=True;" providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+
+  If not then we can add this file starup.cs file for core project strucure.
+
+
 
 
 
